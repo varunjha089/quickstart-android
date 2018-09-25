@@ -6,11 +6,11 @@ apply plugin: 'com.google.firebase.firebase-perf'
 check.dependsOn 'assembleDebugAndroidTest'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.google.firebase.quickstart.perfmon"
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

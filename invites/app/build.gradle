@@ -5,13 +5,13 @@ apply plugin: 'kotlin-android-extensions'
 check.dependsOn 'assembleMainFlavorDebugAndroidTest'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
     flavorDimensions "irrelevant"
 
     defaultConfig {
         applicationId "com.google.firebase.quickstart.invites"
         minSdkVersion 18
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 2
         versionName "1.0.1"
 
